@@ -3,9 +3,11 @@
  * @description {{title}} 
  * @see {{link}}
  */
-
+import { describe, expect, test } from 'vitest'
 import { {{name}} } from '.'
 
-test('{{title}}', () => {
-  expect({{name}}()).toBe()
+describe('{{title}}', () => {
+  test(`输入： 输出：`, () => {
+    expect({{name}}()).toBe()
+  })
 })
