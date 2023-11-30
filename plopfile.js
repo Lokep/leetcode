@@ -32,7 +32,7 @@ module.exports = function (plop) {
       },
       {
         type: "add",
-        path: "src/{{title}}/test.spec.js",
+        path: "src/{{title}}/test.spec.ts",
         templateFile: "templates/test.spec.hbs",
         data: {
           title,
